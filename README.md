@@ -58,7 +58,7 @@ export default IncomeTaxCalculator;
 
 # HomePage - Calculator
 
-![App Screenshot](https://github.com/ervinkacar1991/income-tax_salestrekker/blob/master/ScreenShots/Screenshot%202023-01-12%20123409.png?raw=true)
+![App Screenshot](https://github.com/ervinkacar1991/tax-calculator_salestrekker/blob/master/ScreenShots/Screenshot%202023-01-13%20200234.png?raw=true)
 
 ## Details - Table
 
