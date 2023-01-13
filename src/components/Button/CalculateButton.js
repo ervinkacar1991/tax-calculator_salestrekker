@@ -6,7 +6,7 @@ const CalculateButton = ({ text, onClick, disabled }) => {
       disabled={disabled}
       onClick={onClick}
       className={`w-full group relative h-12  overflow-hidden rounded-xl bg-white text-lg shadow ${
-        disabled ? "bg-calcSecondary " : "bg-calcPrimary "
+        disabled ? "bg-white" : "bg-calcPrimary "
       }  text-white font-semibold py-2.5  flex items-center justify-center`}
     >
       <div class="absolute inset-0 w-3 bg-primary transition-all duration-[1000ms] ease-out group-hover:w-full"></div>
