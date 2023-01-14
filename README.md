@@ -21,80 +21,22 @@ especially Salaried employees. In this app,
 you can calculate 20% tax on your salary on a weekly, monthly and
 yearly basis.
 
-
-## Usage/Examples - Component based example
-
-```javascript
-import {useState} from 'react
-import IncomeTaxCalculator  from './IncomeTaxCalculator'
-
-function IncomeTaxCalculator() {
-
-     const INCOME_TAX_RATE = 0.2;
-     const [grossIncome, setGrossIncome] = useState(0);
-     const [netIncome, setNetIncome] = useState(0);
-     const tax = grossIncome - netIncome;
-
-  function handleGrossIncomeChange(e) {
-     setGrossIncome(e.target.value);
-  }
-
-  function handleCalculateClick() {
-     const tax = grossIncome * INCOME_TAX_RATE;
-     const net = grossIncome - tax;
-     setNetIncome(net);
-  }
-
-  return (
-      <> Here we will present the result in a table ... </>
-  )
-}
-export default IncomeTaxCalculator;
-```
-
-
 ## Income-tax App ScreenShots
 
 
 # HomePage - Calculator
 
-![App Screenshot](https://github.com/ervinkacar1991/income-tax_salestrekker/blob/master/ScreenShots/Screenshot%202023-01-12%20123409.png?raw=true)
+![App Screenshot](https://github.com/ervinkacar1991/tax-calculator_salestrekker/blob/master/ScreenShots/Screenshot%202023-01-13%20200234.png?raw=true)
 
 ## Details - Table
 
-![App Screenshot](https://github.com/ervinkacar1991/income-tax_salestrekker/blob/master/ScreenShots/Screenshot%202023-01-12%20154932.png?raw=true)
+![App Screenshot](https://github.com/ervinkacar1991/tax-calculator_salestrekker/blob/master/ScreenShots/Screenshot%202023-01-13%20200317.png?raw=true)
 
 ## Installation
 
-Install my-project with yarn
-
-```bash
-  Create empty folder "test_salestrekker"
-  cd test_salestrekker
-   -yarn init -y 
-   -yarn add react and react-dom
-
-     **Setup webpack**
-   -yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin
      
-     **Setup babel**
-   -yarn add -D @babel/core @babel/preset-env @babel/preset-react babel-loader
-
-     **Configuration**
-   -Create: index.html
-   -Create: index.js
-   -Create: webpack.config.js
-   -Create: .babelrc
-
-
-   ***START APP***
-
-   -yarn server
-
-   -PORT: 9000
-
-
-
+  - $ yarn;
+  - $ yarn serve; //PORT 9000
 
 ```
     
