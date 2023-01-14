@@ -6,7 +6,7 @@ const CalculateButton = ({ text, onClick, disabled }) => {
       disabled={disabled}
       onClick={onClick}
       className={`w-full group relative h-12 overflow-hidden rounded-xl bg-white text-lg shadow ${
-        disabled ? "bg-white" : ""
+        disabled ? "bg-white" : "bg-primary"
       }  text-white font-semibold py-2.5  flex items-center justify-center`}
     >
       <div
@@ -17,7 +17,7 @@ const CalculateButton = ({ text, onClick, disabled }) => {
 
       <span
         className={`relative text-primary group-hover:text-white ${
-          disabled ? "text-primary group-hover:text-primary" : ""
+          disabled ? "text-primary group-hover:text-primary" : "text-white"
         }`}
       >
         {text}
