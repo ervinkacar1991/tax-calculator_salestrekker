@@ -11,8 +11,8 @@ const CalculateButton = ({ text, onClick, disabled }) => {
     >
       <div
         className={`absolute inset-0 w-3 bg-primary transition-all duration-[1000ms] ease-out ${
-          disabled ? "group-hover:bg-white" : "group-hover:w-ful"
-        }l`}
+          disabled ? "group-hover:bg-secondary" : "group-hover:w-full"
+        }`}
       ></div>
 
       <span
