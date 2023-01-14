@@ -9,9 +9,17 @@ const CalculateButton = ({ text, onClick, disabled }) => {
         disabled ? "bg-white" : ""
       }  text-white font-semibold py-2.5  flex items-center justify-center`}
     >
-      <div className="absolute inset-0 w-3 bg-primary transition-all duration-[1000ms] ease-out group-hover:w-full"></div>
+      <div
+        className={`absolute inset-0 w-3 bg-primary transition-all duration-[1000ms] ease-out ${
+          disabled ? "group-hover:bg-white" : "group-hover:w-ful"
+        }l`}
+      ></div>
 
-      <span className="relative text-primary group-hover:text-white">
+      <span
+        className={`relative text-primary group-hover:text-white ${
+          disabled ? "text-primary group-hover:text-primary" : ""
+        }`}
+      >
         {text}
       </span>
       <svg
