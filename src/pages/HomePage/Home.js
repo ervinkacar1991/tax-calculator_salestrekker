@@ -13,7 +13,7 @@ const Home = ({ setIsCalculator, incomeInfo, updateIncomeInfo }) => {
 
   return (
     <div className="w-full h-screen flex justify-center items-center">
-      <div className="w-full h-2/3 flex flex-col  text-center rounded-2xl px-10 sm:p-2 sm:w-full md:w-2/3 md:h-auto xl:w-2/4 xl:h-4/5  xl:px-10 py-10  bg-neutral-100 shadow-2xl">
+      <div className="w-full h-2/3 flex flex-col  text-center rounded-2xl px-10 sm:p-2 sm:w-full md:w-2/3 md:h-auto xl:w-2/4 xl:h-4/5 xl:px-10 py-10 bg-neutral-100 shadow-2xl">
         <div className="flex justify-center items-center mb-5">
           <div>
             <h1 className="text-2xl mt-4 text-center font-bold text-primary">
@@ -82,7 +82,6 @@ const Home = ({ setIsCalculator, incomeInfo, updateIncomeInfo }) => {
               text="Calculate"
               onClick={() => {
                 setIsCalculator(false);
-                console.log(incomeInfo);
               }}
             />
           </div>
