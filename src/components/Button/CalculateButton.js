@@ -6,7 +6,7 @@ const CalculateButton = ({ text, onClick, disabled }) => {
       disabled={disabled}
       onClick={onClick}
       className={`w-full group relative h-12 overflow-hidden rounded-xl bg-white text-lg shadow ${
-        disabled ? "bg-white" : "bg-primary"
+        disabled ? "bg-primary" : "bg-white"
       }  text-white font-semibold py-2.5  flex items-center justify-center`}
     >
       <div
